@@ -1,0 +1,22 @@
+{
+  "name": "hn-tech-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eqmvii/hn-tech-scraper.git"
+  },
+  "author": "eqmvii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eqmvii/hn-tech-scraper/issues"
+  },
+  "homepage": "https://github.com/eqmvii/hn-tech-scraper#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
