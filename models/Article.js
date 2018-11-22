@@ -1,12 +1,11 @@
-let mongoose = require("mongoose");
+let mongoose = require('mongoose');
 
 let Schema = mongoose.Schema;
 
 let articleSchema = new Schema({
   headline: {
     type: String,
-    required: true,
-    unique: { index: { unique: true } }
+    required: true
   },
   url: {
     type: String,
@@ -18,6 +17,6 @@ let articleSchema = new Schema({
   }
 });
 
-let Article = mongoose.model("Article", articleSchema);
+let Article = mongoose.model('Article', articleSchema);
 
 module.exports = Article;
