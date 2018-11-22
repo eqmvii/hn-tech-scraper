@@ -4,8 +4,9 @@ let express = require("express");
 let router = express.Router();
 let db = require("../models");
 
+// TODO: Remove console.logs etc.
 // console.log(db);
-console.log(db.article);
+// console.log(db.article);
 
 router.get("/test", function(req, res) {
   res.sendFile(path.join(__dirname, "/../web/welcome.html"));
